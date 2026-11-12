@@ -1,4 +1,4 @@
-﻿// @id PROVGUID-RGLR-PROV-LIBR-LIBRSYNERGIA
+// @id PROVGUID-RGLR-PROV-LIBR-LIBRSYNERGIA
 // @name Librus Synergia
 // @version 1.1.0
 // @lang pl
@@ -91,5 +91,4 @@ class LibrusSynergiaExtension extends OProvider {
 LibrusSynergiaExtension main(dynamic source) {
   return LibrusSynergiaExtension(source: source as OSource);
 }
-
 
