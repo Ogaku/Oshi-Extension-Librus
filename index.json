@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PROVGUID-RGLR-PROV-LIBR-LIBRSYNERGIA",
+    "name": "Librus Synergia",
+    "description": "/Providers/Librus/Description",
+    "version": "1.2.1",
+    "lang": "pl",
+    "author": "Ogaku",
+    "iconUrl": "https://api.librus.pl/images/logo-synergia.png",
+    "bannerUrl": "https://api.librus.pl/images/logo-synergia.png",
+    "baseUrl": "https://synergia.librus.pl",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Ogaku/Oshi-Extension-Librus/main/extension.dart",
+    "repoUrl": "https://github.com/Ogaku/Oshi-Extension-Librus",
+    "sha256": "a87da1063f1491054013c7d23e35b20d397bad6e9444e88f7393ccdf62cd5404",
+    "minAppVersion": "1.1.0",
+    "loginType": 2,
+    "isDevOnly": false,
+    "credentials": [
+      {
+        "key": "login",
+        "name": "/Session/Login/Username",
+        "obscure": false,
+        "optional": false,
+        "webOnly": false
+      },
+      {
+        "key": "pass",
+        "name": "/Session/Login/Password",
+        "obscure": true,
+        "optional": false,
+        "webOnly": false
+      },
+      {
+        "key": "proxy",
+        "name": "/Session/Login/ProxyUrl",
+        "obscure": false,
+        "optional": true,
+        "webOnly": true,
+        "helperText": "/Session/Login/ProxyHelper",
+        "helperUrl": "https://github.com/Ogaku/Oshi/wiki/Web-app"
+      }
+    ]
+  }
+]
